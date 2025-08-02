@@ -60,9 +60,7 @@ main {
 }
 
 .status {
-  color: gray;
-  margin-left: 10px;
-  
+ color: gray;
 }
 
 .chat-header img {
@@ -104,8 +102,52 @@ main {
 
 .online::before {
   content: "🟢";
+font-size: 12px;
 }
 
 .offline::before {
   content: "🔴";
+  font-size: 12px;
+}
+
+.message {
+border-radius: 15px;
+padding: 10px;
+
+}
+
+.sent {
+background-color: #e4f2f7;
+min-width: ;
+}
+
+.received {
+background-color: #ededed;
+}
+
+.chat-messages {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.chat-footer {
+align-content: end;
+background-color red;
+padding: 15px;
+border-top: 1.5px solid #e1e1e1;
+}
+
+.chat-footer input {
+  border: 1px solid gray ;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+.chat-footer button {
+  background-color: #fefefe;
+  border: none;
+  font-size: 20px;
 }
