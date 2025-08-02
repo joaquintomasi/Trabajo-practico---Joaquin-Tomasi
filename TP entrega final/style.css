@@ -6,7 +6,6 @@
 
 section {
   display: flex;
-  
 }
 
 main {
@@ -113,28 +112,27 @@ font-size: 12px;
 .message {
 border-radius: 15px;
 padding: 10px;
-
+width: fit-content;
+margin: 10px;
+display: flex;
 }
 
 .sent {
-background-color: #e4f2f7;
-min-width: ;
+background-color: #d7eff8;
+align-self: end;
 }
 
 .received {
-background-color: #ededed;
+background-color: rgb(218, 214, 214);
 }
 
 .chat-messages {
-  background-color: red;
-  display: flex;
+   display: flex;
   flex-direction: column;
+  height: 810px;
 }
 
-
 .chat-footer {
-align-content: end;
-background-color red;
 padding: 15px;
 border-top: 1.5px solid #e1e1e1;
 }
@@ -150,4 +148,8 @@ border-top: 1.5px solid #e1e1e1;
   background-color: #fefefe;
   border: none;
   font-size: 20px;
+}
+
+.timestamp {
+  color: gray;
 }
