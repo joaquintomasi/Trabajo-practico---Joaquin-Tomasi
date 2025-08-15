@@ -153,3 +153,7 @@ border-top: 1.5px solid #e1e1e1;
 .timestamp {
   color: gray;
 }
+
+#btn-send {
+  cursor: pointer;
+}
