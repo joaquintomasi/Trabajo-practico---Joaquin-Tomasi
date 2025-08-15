@@ -4,6 +4,14 @@ const $chatMessage = document.querySelector(".chat-messages")
 
 $buttonSend.addEventListener("click", sendMessage)
 
+// ESTO SIRVE PARA ENVIAR EL MENSAJE CON EL ENTER PERO LO HICE CON CHATGPT PARA PROBAR (NO TOMAR EN CUENTA!)
+
+// $inputMessage.addEventListener("click", "keydown", function(event) {
+//   if (event.key === "Enter") {
+//       sendMessage();
+//   }
+// })
+
 function sendMessage() {
   const message = $inputMessage.value
 
